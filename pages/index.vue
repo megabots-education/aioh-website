@@ -50,7 +50,4 @@ export default {
   padding-bottom: 15px;
 }
 
-body {
-  background-color: #00c7dd;
-}
 </style>
