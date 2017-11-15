@@ -34,5 +34,11 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  /*
+  ** Modules configuration
+  */
+  modules: [
+    'bootstrap-vue/nuxt',
+  ]
 }
