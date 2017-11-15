@@ -1,0 +1,26 @@
+{
+  "name": "aioh-website",
+  "version": "0.0.1",
+  "description": "Presentation website of Aioh Online Platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megabots-education/aioh-website.git"
+  },
+  "keywords": [
+    "aioh",
+    "edtech",
+    "megabots",
+    "vue.js",
+    "nuxt.js"
+  ],
+  "author": "Escola MegaBots Ltda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/megabots-education/aioh-website/issues"
+  },
+  "homepage": "https://github.com/megabots-education/aioh-website#readme"
+}
