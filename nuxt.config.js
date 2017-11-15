@@ -14,9 +14,9 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-
   css: [
-    '@/assets/scss/global.scss'
+    '~/assets/scss/global.scss',
+    'bootstrap-vue/dist/bootstrap-vue.css',
   ],
   /*
   ** Customize the progress bar color
@@ -44,6 +44,6 @@ module.exports = {
   ** Modules configuration
   */
   modules: [
-    'bootstrap-vue/nuxt',
+    ['bootstrap-vue/nuxt', { css: false }],
   ]
 }
