@@ -7,7 +7,7 @@
             Aioh é um produto da Escola
           </h4>
           <p></p>
-          <b-link href="http://www.escolamegabots.com.br">
+          <b-link href="http://www.escolamegabots.com.br"  target="_blank">
             <b-img src="/img/megabots-logo.svg" fluid/>
           </b-link>
         </b-col>
