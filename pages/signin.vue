@@ -42,11 +42,11 @@ export default {
     return {
       title: 'Aioh - Sign in',
       meta: [
-        { hid: 'og:title', name: 'og:title', content: 'Aioh - Sign in Page' },
-        { hid: 'og:image', name: 'og:image', content: '/img/social-default-banner.png' },
-        { hid: 'og:image:type', name: 'og:image:type', content: 'image/png' },
-        { hid: 'og:image:alt', name: 'og:image:alt', content: 'Aioh: O futuro da educação é agora! Você está preparado?' },
-        { hid: 'description', name: 'description', content: 'Faça seu login na plataforma online.' }
+        { hid: 'og:title', property: 'og:title', content: 'Aioh - Sign in Page' },
+        { hid: 'og:image', property: 'og:image', content: 'http://aioh.io/img/social-default-banner.png' },
+        { hid: 'og:image:type', property: 'og:image:type', content: 'image/png' },
+        { hid: 'og:image:alt', property: 'og:image:alt', content: 'Aioh: O futuro da educação é agora! Você está preparado?' },
+        { hid: 'description', property: 'description', content: 'Faça seu login na plataforma online.' }
       ]
     }
   }

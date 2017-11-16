@@ -8,9 +8,16 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'og:title', property: 'og:title', content: 'Aioh' },
+      { hid: 'og:locale', property: 'og:locale', content: 'pt_BR' },
       { hid: 'description', name: 'description', content: 'Aioh Online Platform' },
-      { hid: 'og:type', name: 'og:type', content: 'website' }
-      
+      { hid: 'og:description', property: 'og:description', content: 'Aioh Online Platform' },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:image', property: 'og:image', content: 'http://aioh.io/img/social-default-banner.png' },
+      { hid: 'og:image:type', property: 'og:image:type', content: 'image/png' },
+      { hid: 'og:image:alt', property: 'og:image:alt', content: 'Aioh: O futuro da educação é agora! Você está preparado?' },
+      { hid: 'og:image:width', property: 'og:image:width', content: '690' },
+      { hid: 'og:image:height', property: 'og:image:height', content: '402' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
