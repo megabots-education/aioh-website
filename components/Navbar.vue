@@ -7,14 +7,14 @@
     </b-navbar-brand>
 
     <b-collapse is-nav id="nav_collapse">
+      <!--
       <b-navbar-nav>
         <b-nav-item href="/">Home</b-nav-item>
       </b-navbar-nav>
-
+      -->
       <b-navbar-nav class="ml-auto">
         <b-nav-item href="/signin">Sign In</b-nav-item>
       </b-navbar-nav>
-
     </b-collapse>
   </b-navbar>
 </template>
