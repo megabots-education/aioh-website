@@ -12,6 +12,18 @@ import MainSection from '~/components/index/MainSection.vue'
 export default {
   components: {
     MainSection
+  },
+  head () {
+    return {
+      title: 'Aioh - Home',
+      meta: [
+        { hid: 'og:title', name: 'og:title', content: 'Aioh - Home' },
+        { hid: 'og:image', name: 'og:image', content: '/img/social-default-banner.png' },
+        { hid: 'og:image:type', name: 'og:image:type', content: 'image/png' },
+        { hid: 'og:image:alt', name: 'og:image:alt', content: 'Aioh: O futuro da educação é agora! Você está preparado?' },
+        { hid: 'description', name: 'description', content: 'Aioh: O futuro da educação é agora! Você está preparado?' }
+      ]
+    }
   }
 }
 </script>

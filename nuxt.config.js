@@ -4,11 +4,13 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'aioh-website',
+    title: 'Aioh',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Presentation website of Aioh Online Platform' }
+      { hid: 'description', name: 'description', content: 'Aioh Online Platform' },
+      { hid: 'og:type', name: 'og:type', content: 'website' }
+      
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

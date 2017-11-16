@@ -2,8 +2,10 @@
   <b-navbar toggleable="md" type="dark" variant="info" fixed="top">
 
     <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-    <b-navbar-brand href="/">
-      <img src="/img/logo.svg" alt="Aioh">
+    <b-navbar-brand>
+      <nuxt-link to="/">
+        <img src="/img/logo.svg" alt="Aioh">
+      </nuxt-link>
     </b-navbar-brand>
 
     <b-collapse is-nav id="nav_collapse">
@@ -13,7 +15,9 @@
       </b-navbar-nav>
       -->
       <b-navbar-nav class="ml-auto">
-        <b-nav-item href="/signin">Sign In</b-nav-item>
+          <nuxt-link to="/signin" class="nav-link">
+            Sign In
+          </nuxt-link>
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
