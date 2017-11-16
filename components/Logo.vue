@@ -6,8 +6,11 @@
 
 <style>
 .logo {
-  display: inline-block;
-  position: relative;
-  overflow: hidden;
+  width: 100%;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
 }
 </style>

@@ -1,23 +1,17 @@
 <template>
-  <section class="container">
-    <div>
-      <logo/>
-      <h2 class="title">
-        O futuro da educação é agora! Você está preparado?
-      </h2>
-      <h3 class="subtitle">
-        Site em Construção
-      </h3>
-    </div>
-  </section>
+  <div>
+    <main-section/>
+  </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+
+// Page Sections
+import MainSection from '~/components/index/MainSection.vue'
 
 export default {
   components: {
-    Logo
+    MainSection
   }
 }
 </script>

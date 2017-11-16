@@ -1,7 +1,24 @@
 
-// Variables
+// Default Bootstrap Variables and Functions
+@import 'node_modules/bootstrap/scss/_functions';
+@import 'node_modules/bootstrap/scss/_variables';
+
+// Custom Variables values
 @import 'base/_variables';
 
 // Module Files
 // -- Vendor
 @import 'node_modules/bootstrap/scss/bootstrap';
+
+// Layouts
+@import 'layouts/nav';
+@import 'modules/footer';
+@import 'modules/mainSection';
+
+body {
+  padding-top: $small-screen-body-padding;
+
+  @media (min-width: 768px) {
+    padding-top: $big-screen-body-padding;
+  }
+}

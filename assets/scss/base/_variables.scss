@@ -2,3 +2,10 @@
 // Bootstrap Override
 $body-bg: #00c7dd;
 $body-color: #ffffff;
+
+// --> NAVBAR <--
+$navbar-height: $nav-link-height + 2 * $nav-link-padding-y + 2 * $navbar-brand-padding-y;
+$navbar-dark-color: rgba($white, 1);
+
+$big-screen-body-padding: 66px;
+$small-screen-body-padding: 82px;

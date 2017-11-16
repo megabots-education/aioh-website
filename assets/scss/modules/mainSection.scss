@@ -1,0 +1,35 @@
+
+.main-section {
+
+  min-height: calc(100vh - #{ $small-screen-body-padding });
+  //background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  animation: colorchange 30s infinite;
+  -webkit-animation: colorchange 30s infinite;
+
+  @keyframes colorchange {
+    0%   {background: #0fb8ad;}
+    25%  {background: #1fc8db;}
+    50%  {background: #2cb5e8;}
+    75%  {background: #1fc8db;}
+    100% {background: #0fb8ad;}
+  }
+
+  @-webkit-keyframes colorchange {
+    0%   {background: #0fb8ad;}
+    25%  {background: #1fc8db;}
+    50%  {background: #2cb5e8;}
+    75%  {background: #1fc8db;}
+    100% {background: #0fb8ad;}
+  }
+
+  @media (min-width: 768px) {
+    min-height: calc(100vh - #{ $big-screen-body-padding });
+    .video-frame-container {
+      background-color: rgba($white, .9);
+      padding: 10px;
+      border-radius: 5px;
+      .video-frame {
+      }
+    }
+  }
+}

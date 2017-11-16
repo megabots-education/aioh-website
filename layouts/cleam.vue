@@ -1,20 +1,11 @@
 <template>
   <div>
-    <navbar/>
     <nuxt/>
-    <main-footer/>
   </div>
 </template>
 
 <script>
-import Navbar from '~/components/Navbar.vue'
-import MainFooter from '~/components/MainFooter.vue'
-
 export default {
-  components: {
-    Navbar,
-    MainFooter
-  }
 }
 </script>
 

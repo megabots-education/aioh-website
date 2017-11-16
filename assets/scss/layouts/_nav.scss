@@ -1,0 +1,14 @@
+
+.navbar {
+  .navbar-brand img {
+    width: auto;
+    height: $navbar-brand-height;
+  }
+
+  .navbar-brand,
+  .navbar-nav li a {
+      line-height: $navbar-height;
+      height: $navbar-height;
+      padding-top: 0;
+  }
+}
